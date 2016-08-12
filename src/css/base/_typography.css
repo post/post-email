@@ -1,0 +1,66 @@
+html,
+body,
+h5,
+h4,
+h3,
+h2,
+h1,
+p,
+a,
+li,
+span {
+  font-family: Tahoma, sans-serif;
+  -webkit-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+body {
+  font-size: calc(var(--base-px) * var(--ms0));
+  line-height: calc(var(--base) * var(--ms2));
+}
+
+h5,
+.h5 {
+  font-size: calc(var(--base-px) * var(--ms0));
+}
+
+h4,
+.h4 {
+  font-size: calc(var(--base-px) * var(--ms0));
+}
+
+h3,
+.h3 {
+  font-size: calc(var(--base-px) * var(--ms1));
+}
+
+h2,
+.h2 {
+  font-size: calc(var(--base-px) * var(--ms2));
+}
+
+h1,
+.h1 {
+  font-size: calc(var(--base-px) * var(--ms3));
+}
+
+h3,
+.h3,
+h2,
+.h2 { line-height: calc(var(--base) * var(--ms1)); }
+h1,
+.h1 { line-height: calc(var(--base) * var(--ms1)); }
+
+p,
+a {
+  font-size: calc(var(--base-px) * var(--ms0));
+  line-height: calc(var(--base) * var(--ms2));
+  font-weight: 300;
+}
+
+li {
+  font-size: calc(var(--base-px) * var(--ms0));
+  line-height: 1.6;
+  font-weight: 300;
+}

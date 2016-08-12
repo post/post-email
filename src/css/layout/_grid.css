@@ -1,0 +1,35 @@
+.container {
+  max-width: calc(var(--container) * (1var(--container-ext)));
+  min-width: calc(var(--container) * (1var(--container-ext)));
+  width: calc(var(--container) * (1var(--container-ext)));
+}
+
+@for $i from 1 to var(--grid-row-count) {
+  .container-row-$i {
+    height: calc(var(--grid-row-height) * $i * (1var(--grid-gutter-ext)));
+
+    @for $k from 1 to var(--grid-row-count) {
+      @if ($k != var(--grid-row-count)) {
+        .row-offset-$k {
+          margin-top: calc((($i *  var(--grid-row-height)) / var(--grid-row-count)) * $k * (1var(--grid-gutter-ext)));
+        }
+      }
+    }
+  }
+
+  .row-$i {
+    height: calc((100% * $i) / var(--grid-col-count));
+  }
+}
+
+@for $i from 1 to var(--grid-col-count) {
+  @if ($i != var(--grid-col-count)) {
+    .col-offset-$i {
+      margin-left: calc((100% * $i) / var(--grid-col-count));
+    }
+  }
+
+  .col-$i {
+    width: calc((100% * $i) / var(--grid-col-count));
+  }
+}

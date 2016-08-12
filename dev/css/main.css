@@ -1,0 +1,1915 @@
+/* utils */
+
+:root {
+    /* 1.2   *//* 1.44  *//* 1.728 *//* 2.074 *//* 2.488 *//* 2.986 *//* 3.583 */
+}
+
+.bg-yellow {
+    background-color: #fff200;
+}
+
+.bg-dark {
+    background-color: #2b2b2b;
+}
+
+.bg-divider-inside {
+    background-color: #d4d4d4;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.divider {
+    border: 1px solid #a5a5a5;
+}
+
+.divider-top {
+    border-top: 1px solid #a5a5a5;
+}
+
+.divider-bottom {
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.divider-right {
+    border-right: 1px solid #a5a5a5;
+}
+
+.divider-left {
+    border-left: 1px solid #a5a5a5;
+}
+
+.divider-inside {
+    border: 0.7px solid #d4d4d4;
+}
+
+.divider-inside-top {
+    border-top: 1px solid #d4d4d4;
+}
+
+.divider-inside-bottom {
+    border-bottom: 0.7px solid #d4d4d4;
+}
+
+.divider-inside-right {
+    border-right: 1px solid #d4d4d4;
+}
+
+.divider-inside-left {
+    border-left: 1px solid #d4d4d4;
+}
+
+.divider-btn {
+    border: 1px solid #e5cf00;
+}
+
+.divider-btn-top {
+    border-top: 1px solid #e5cf00;
+}
+
+.divider-btn-bottom {
+    border-bottom: 1px solid #e5cf00;
+}
+
+.divider-btn-right {
+    border-right: 1px solid #e5cf00;
+}
+
+.divider-btn-left {
+    border-left: 1px solid #e5cf00;
+}
+
+.divider-dotted {
+    border: 1px dotted #a5a5a5;
+}
+
+.divider-dotted-top {
+    border-top: 1px dotted #a5a5a5;
+}
+
+.divider-dotted-bottom {
+    border-bottom: 1px dotted #a5a5a5;
+}
+
+.divider-dotted-right {
+    border-right: 1px dotted #a5a5a5;
+}
+
+.divider-dotted-left {
+    border-left: 1px dotted #a5a5a5;
+}
+
+.offset-5 {
+    margin: 5px;
+}
+
+.offset-inside-5 {
+    padding: 5px;
+}
+
+.offset-10 {
+    margin: 10px;
+}
+
+.offset-inside-10 {
+    padding: 10px;
+}
+
+.offset-15 {
+    margin: 15px;
+}
+
+.offset-inside-15 {
+    padding: 15px;
+}
+
+.offset-20 {
+    margin: 20px;
+}
+
+.offset-inside-20 {
+    padding: 20px;
+}
+
+.offset-25 {
+    margin: 25px;
+}
+
+.offset-inside-25 {
+    padding: 25px;
+}
+
+.offset-30 {
+    margin: 30px;
+}
+
+.offset-inside-30 {
+    padding: 30px;
+}
+
+.offset-35 {
+    margin: 35px;
+}
+
+.offset-inside-35 {
+    padding: 35px;
+}
+
+.offset-40 {
+    margin: 40px;
+}
+
+.offset-inside-40 {
+    padding: 40px;
+}
+
+.offset-v-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.offset-inside-v-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.offset-v-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.offset-inside-v-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.offset-v-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.offset-inside-v-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.offset-v-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.offset-inside-v-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.offset-v-25 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.offset-inside-v-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.offset-v-30 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.offset-inside-v-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.offset-v-35 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.offset-inside-v-35 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.offset-v-40 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.offset-inside-v-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.offset-h-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.offset-inside-h-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.offset-h-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.offset-inside-h-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.offset-h-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.offset-inside-h-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.offset-h-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.offset-inside-h-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.offset-h-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.offset-inside-h-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.offset-h-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.offset-inside-h-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.offset-h-35 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.offset-inside-h-35 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.offset-h-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.offset-inside-h-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.offset-top-5 {
+    margin-top: 5px;
+}
+
+.offset-inside-top-5 {
+    padding-top: 5px;
+}
+
+.offset-top-10 {
+    margin-top: 10px;
+}
+
+.offset-inside-top-10 {
+    padding-top: 10px;
+}
+
+.offset-top-15 {
+    margin-top: 15px;
+}
+
+.offset-inside-top-15 {
+    padding-top: 15px;
+}
+
+.offset-top-20 {
+    margin-top: 20px;
+}
+
+.offset-inside-top-20 {
+    padding-top: 20px;
+}
+
+.offset-top-25 {
+    margin-top: 25px;
+}
+
+.offset-inside-top-25 {
+    padding-top: 25px;
+}
+
+.offset-top-30 {
+    margin-top: 30px;
+}
+
+.offset-inside-top-30 {
+    padding-top: 30px;
+}
+
+.offset-top-35 {
+    margin-top: 35px;
+}
+
+.offset-inside-top-35 {
+    padding-top: 35px;
+}
+
+.offset-top-40 {
+    margin-top: 40px;
+}
+
+.offset-inside-top-40 {
+    padding-top: 40px;
+}
+
+.offset-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.offset-inside-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.offset-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.offset-inside-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.offset-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.offset-inside-bottom-15 {
+    padding-bottom: 15px;
+}
+
+.offset-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.offset-inside-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.offset-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.offset-inside-bottom-25 {
+    padding-bottom: 25px;
+}
+
+.offset-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.offset-inside-bottom-30 {
+    padding-bottom: 30px;
+}
+
+.offset-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.offset-inside-bottom-35 {
+    padding-bottom: 35px;
+}
+
+.offset-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.offset-inside-bottom-40 {
+    padding-bottom: 40px;
+}
+
+.offset-left-5 {
+    margin-left: 5px;
+}
+
+.offset-inside-left-5 {
+    padding-left: 5px;
+}
+
+.offset-left-10 {
+    margin-left: 10px;
+}
+
+.offset-inside-left-10 {
+    padding-left: 10px;
+}
+
+.offset-left-15 {
+    margin-left: 15px;
+}
+
+.offset-inside-left-15 {
+    padding-left: 15px;
+}
+
+.offset-left-20 {
+    margin-left: 20px;
+}
+
+.offset-inside-left-20 {
+    padding-left: 20px;
+}
+
+.offset-left-25 {
+    margin-left: 25px;
+}
+
+.offset-inside-left-25 {
+    padding-left: 25px;
+}
+
+.offset-left-30 {
+    margin-left: 30px;
+}
+
+.offset-inside-left-30 {
+    padding-left: 30px;
+}
+
+.offset-left-35 {
+    margin-left: 35px;
+}
+
+.offset-inside-left-35 {
+    padding-left: 35px;
+}
+
+.offset-left-40 {
+    margin-left: 40px;
+}
+
+.offset-inside-left-40 {
+    padding-left: 40px;
+}
+
+.offset-right-5 {
+    margin-right: 5px;
+}
+
+.offset-inside-right-5 {
+    padding-right: 5px;
+}
+
+.offset-right-10 {
+    margin-right: 10px;
+}
+
+.offset-inside-right-10 {
+    padding-right: 10px;
+}
+
+.offset-right-15 {
+    margin-right: 15px;
+}
+
+.offset-inside-right-15 {
+    padding-right: 15px;
+}
+
+.offset-right-20 {
+    margin-right: 20px;
+}
+
+.offset-inside-right-20 {
+    padding-right: 20px;
+}
+
+.offset-right-25 {
+    margin-right: 25px;
+}
+
+.offset-inside-right-25 {
+    padding-right: 25px;
+}
+
+.offset-right-30 {
+    margin-right: 30px;
+}
+
+.offset-inside-right-30 {
+    padding-right: 30px;
+}
+
+.offset-right-35 {
+    margin-right: 35px;
+}
+
+.offset-inside-right-35 {
+    padding-right: 35px;
+}
+
+.offset-right-40 {
+    margin-right: 40px;
+}
+
+.offset-inside-right-40 {
+    padding-right: 40px;
+}
+
+.text-muted {
+    color: #777777;
+}
+
+.text-blue {
+    color: #537ecd;
+}
+
+.text-green {
+    color: #7fa93a;
+}
+
+.text-red {
+    color: #b43c17;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-strong {
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-nobreak {
+    white-space: nowrap;
+}
+
+.text-sm {
+    font-size: 11.05px;
+    line-height: 1.44;
+}
+
+.text-decoration-reset {
+    text-decoration: none;
+}
+
+.box-inline {
+    display: inline-block;
+}
+
+.box-block {
+    display: block;
+}
+
+.v-top {
+    vertical-align: top;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.v-text-top {
+    vertical-align: text-top;
+}
+
+.list-square {
+    list-style-type: square;
+}
+
+.table-no-fix {
+    table-layout: auto;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+}
+
+/* vendors */
+
+/* base */
+
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+
+html {
+    font-family: sans-serif; /* 1 */
+    line-height: 1.15; /* 2 */
+        -ms-text-size-adjust: 100%; /* 3 */
+    -webkit-text-size-adjust: 100%; /* 3 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+    margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+
+article, aside, details, /* 1 */
+figcaption, figure, footer, header, main,
+/* 2 */
+menu, nav, section, summary {
+    /* 1 */
+    display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio, canvas, progress, video {
+    display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+
+template, /* 1 */
+[hidden] {
+    display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+    background-color: transparent; /* 1 */
+    -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+
+a:active, a:hover {
+    outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b, strong {
+    font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b, strong {
+    font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+    background-color: #ff0;
+    color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+    border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+    margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button, input, optgroup, select, textarea {
+    font: inherit; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+
+optgroup {
+    font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button, input {
+    /* 1 */
+    overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button, select {
+    /* 1 */
+    text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button, html [type="button"], /* 1 */
+[type="reset"], [type="submit"] {
+    -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring, [type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+    overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"], [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+table {
+    table-layout: fixed;
+}
+
+a {
+    color: #000;
+}
+
+html, body, h5, h4, h3, h2, h1, p, a, li, span {
+    font-family: Tahoma, sans-serif;
+    -webkit-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+            text-size-adjust: none;
+}
+
+body {
+    font-size: 13px;
+    line-height: 1.44;
+}
+
+h5, .h5 {
+    font-size: 13px;
+}
+
+h4, .h4 {
+    font-size: 13px;
+}
+
+h3, .h3 {
+    font-size: 15.6px;
+}
+
+h2, .h2 {
+    font-size: 18.72px;
+}
+
+h1, .h1 {
+    font-size: 22.464px;
+}
+
+h3, .h3, h2, .h2 {
+    line-height: 1.2;
+}
+
+h1, .h1 {
+    line-height: 1.2;
+}
+
+p, a {
+    font-size: 13px;
+    line-height: 1.44;
+    font-weight: 300;
+}
+
+li {
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+/* layout */
+
+.container {
+    max-width: 640px;
+    min-width: 640px;
+    width: 640px;
+}
+
+.container-row-1 {
+    height: 20px;
+}
+
+.container-row-1 .row-offset-1 {
+    margin-top: 1.66667px;
+}
+
+.container-row-1 .row-offset-2 {
+    margin-top: 3.33333px;
+}
+
+.container-row-1 .row-offset-3 {
+    margin-top: 5px;
+}
+
+.container-row-1 .row-offset-4 {
+    margin-top: 6.66667px;
+}
+
+.container-row-1 .row-offset-5 {
+    margin-top: 8.33333px;
+}
+
+.container-row-1 .row-offset-6 {
+    margin-top: 10px;
+}
+
+.container-row-1 .row-offset-7 {
+    margin-top: 11.66667px;
+}
+
+.container-row-1 .row-offset-8 {
+    margin-top: 13.33333px;
+}
+
+.container-row-1 .row-offset-9 {
+    margin-top: 15px;
+}
+
+.container-row-1 .row-offset-10 {
+    margin-top: 16.66667px;
+}
+
+.container-row-1 .row-offset-11 {
+    margin-top: 18.33333px;
+}
+
+.row-1 {
+    height: 8.33333%;
+}
+
+.container-row-2 {
+    height: 40px;
+}
+
+.container-row-2 .row-offset-1 {
+    margin-top: 3.33333px;
+}
+
+.container-row-2 .row-offset-2 {
+    margin-top: 6.66667px;
+}
+
+.container-row-2 .row-offset-3 {
+    margin-top: 10px;
+}
+
+.container-row-2 .row-offset-4 {
+    margin-top: 13.33333px;
+}
+
+.container-row-2 .row-offset-5 {
+    margin-top: 16.66667px;
+}
+
+.container-row-2 .row-offset-6 {
+    margin-top: 20px;
+}
+
+.container-row-2 .row-offset-7 {
+    margin-top: 23.33333px;
+}
+
+.container-row-2 .row-offset-8 {
+    margin-top: 26.66667px;
+}
+
+.container-row-2 .row-offset-9 {
+    margin-top: 30px;
+}
+
+.container-row-2 .row-offset-10 {
+    margin-top: 33.33333px;
+}
+
+.container-row-2 .row-offset-11 {
+    margin-top: 36.66667px;
+}
+
+.row-2 {
+    height: 16.66667%;
+}
+
+.container-row-3 {
+    height: 60px;
+}
+
+.container-row-3 .row-offset-1 {
+    margin-top: 5px;
+}
+
+.container-row-3 .row-offset-2 {
+    margin-top: 10px;
+}
+
+.container-row-3 .row-offset-3 {
+    margin-top: 15px;
+}
+
+.container-row-3 .row-offset-4 {
+    margin-top: 20px;
+}
+
+.container-row-3 .row-offset-5 {
+    margin-top: 25px;
+}
+
+.container-row-3 .row-offset-6 {
+    margin-top: 30px;
+}
+
+.container-row-3 .row-offset-7 {
+    margin-top: 35px;
+}
+
+.container-row-3 .row-offset-8 {
+    margin-top: 40px;
+}
+
+.container-row-3 .row-offset-9 {
+    margin-top: 45px;
+}
+
+.container-row-3 .row-offset-10 {
+    margin-top: 50px;
+}
+
+.container-row-3 .row-offset-11 {
+    margin-top: 55px;
+}
+
+.row-3 {
+    height: 25%;
+}
+
+.container-row-4 {
+    height: 80px;
+}
+
+.container-row-4 .row-offset-1 {
+    margin-top: 6.66667px;
+}
+
+.container-row-4 .row-offset-2 {
+    margin-top: 13.33333px;
+}
+
+.container-row-4 .row-offset-3 {
+    margin-top: 20px;
+}
+
+.container-row-4 .row-offset-4 {
+    margin-top: 26.66667px;
+}
+
+.container-row-4 .row-offset-5 {
+    margin-top: 33.33333px;
+}
+
+.container-row-4 .row-offset-6 {
+    margin-top: 40px;
+}
+
+.container-row-4 .row-offset-7 {
+    margin-top: 46.66667px;
+}
+
+.container-row-4 .row-offset-8 {
+    margin-top: 53.33333px;
+}
+
+.container-row-4 .row-offset-9 {
+    margin-top: 60px;
+}
+
+.container-row-4 .row-offset-10 {
+    margin-top: 66.66667px;
+}
+
+.container-row-4 .row-offset-11 {
+    margin-top: 73.33333px;
+}
+
+.row-4 {
+    height: 33.33333%;
+}
+
+.container-row-5 {
+    height: 100px;
+}
+
+.container-row-5 .row-offset-1 {
+    margin-top: 8.33333px;
+}
+
+.container-row-5 .row-offset-2 {
+    margin-top: 16.66667px;
+}
+
+.container-row-5 .row-offset-3 {
+    margin-top: 25px;
+}
+
+.container-row-5 .row-offset-4 {
+    margin-top: 33.33333px;
+}
+
+.container-row-5 .row-offset-5 {
+    margin-top: 41.66667px;
+}
+
+.container-row-5 .row-offset-6 {
+    margin-top: 50px;
+}
+
+.container-row-5 .row-offset-7 {
+    margin-top: 58.33333px;
+}
+
+.container-row-5 .row-offset-8 {
+    margin-top: 66.66667px;
+}
+
+.container-row-5 .row-offset-9 {
+    margin-top: 75px;
+}
+
+.container-row-5 .row-offset-10 {
+    margin-top: 83.33333px;
+}
+
+.container-row-5 .row-offset-11 {
+    margin-top: 91.66667px;
+}
+
+.row-5 {
+    height: 41.66667%;
+}
+
+.container-row-6 {
+    height: 120px;
+}
+
+.container-row-6 .row-offset-1 {
+    margin-top: 10px;
+}
+
+.container-row-6 .row-offset-2 {
+    margin-top: 20px;
+}
+
+.container-row-6 .row-offset-3 {
+    margin-top: 30px;
+}
+
+.container-row-6 .row-offset-4 {
+    margin-top: 40px;
+}
+
+.container-row-6 .row-offset-5 {
+    margin-top: 50px;
+}
+
+.container-row-6 .row-offset-6 {
+    margin-top: 60px;
+}
+
+.container-row-6 .row-offset-7 {
+    margin-top: 70px;
+}
+
+.container-row-6 .row-offset-8 {
+    margin-top: 80px;
+}
+
+.container-row-6 .row-offset-9 {
+    margin-top: 90px;
+}
+
+.container-row-6 .row-offset-10 {
+    margin-top: 100px;
+}
+
+.container-row-6 .row-offset-11 {
+    margin-top: 110px;
+}
+
+.row-6 {
+    height: 50%;
+}
+
+.container-row-7 {
+    height: 140px;
+}
+
+.container-row-7 .row-offset-1 {
+    margin-top: 11.66667px;
+}
+
+.container-row-7 .row-offset-2 {
+    margin-top: 23.33333px;
+}
+
+.container-row-7 .row-offset-3 {
+    margin-top: 35px;
+}
+
+.container-row-7 .row-offset-4 {
+    margin-top: 46.66667px;
+}
+
+.container-row-7 .row-offset-5 {
+    margin-top: 58.33333px;
+}
+
+.container-row-7 .row-offset-6 {
+    margin-top: 70px;
+}
+
+.container-row-7 .row-offset-7 {
+    margin-top: 81.66667px;
+}
+
+.container-row-7 .row-offset-8 {
+    margin-top: 93.33333px;
+}
+
+.container-row-7 .row-offset-9 {
+    margin-top: 105px;
+}
+
+.container-row-7 .row-offset-10 {
+    margin-top: 116.66667px;
+}
+
+.container-row-7 .row-offset-11 {
+    margin-top: 128.33333px;
+}
+
+.row-7 {
+    height: 58.33333%;
+}
+
+.container-row-8 {
+    height: 160px;
+}
+
+.container-row-8 .row-offset-1 {
+    margin-top: 13.33333px;
+}
+
+.container-row-8 .row-offset-2 {
+    margin-top: 26.66667px;
+}
+
+.container-row-8 .row-offset-3 {
+    margin-top: 40px;
+}
+
+.container-row-8 .row-offset-4 {
+    margin-top: 53.33333px;
+}
+
+.container-row-8 .row-offset-5 {
+    margin-top: 66.66667px;
+}
+
+.container-row-8 .row-offset-6 {
+    margin-top: 80px;
+}
+
+.container-row-8 .row-offset-7 {
+    margin-top: 93.33333px;
+}
+
+.container-row-8 .row-offset-8 {
+    margin-top: 106.66667px;
+}
+
+.container-row-8 .row-offset-9 {
+    margin-top: 120px;
+}
+
+.container-row-8 .row-offset-10 {
+    margin-top: 133.33333px;
+}
+
+.container-row-8 .row-offset-11 {
+    margin-top: 146.66667px;
+}
+
+.row-8 {
+    height: 66.66667%;
+}
+
+.container-row-9 {
+    height: 180px;
+}
+
+.container-row-9 .row-offset-1 {
+    margin-top: 15px;
+}
+
+.container-row-9 .row-offset-2 {
+    margin-top: 30px;
+}
+
+.container-row-9 .row-offset-3 {
+    margin-top: 45px;
+}
+
+.container-row-9 .row-offset-4 {
+    margin-top: 60px;
+}
+
+.container-row-9 .row-offset-5 {
+    margin-top: 75px;
+}
+
+.container-row-9 .row-offset-6 {
+    margin-top: 90px;
+}
+
+.container-row-9 .row-offset-7 {
+    margin-top: 105px;
+}
+
+.container-row-9 .row-offset-8 {
+    margin-top: 120px;
+}
+
+.container-row-9 .row-offset-9 {
+    margin-top: 135px;
+}
+
+.container-row-9 .row-offset-10 {
+    margin-top: 150px;
+}
+
+.container-row-9 .row-offset-11 {
+    margin-top: 165px;
+}
+
+.row-9 {
+    height: 75%;
+}
+
+.container-row-10 {
+    height: 200px;
+}
+
+.container-row-10 .row-offset-1 {
+    margin-top: 16.66667px;
+}
+
+.container-row-10 .row-offset-2 {
+    margin-top: 33.33333px;
+}
+
+.container-row-10 .row-offset-3 {
+    margin-top: 50px;
+}
+
+.container-row-10 .row-offset-4 {
+    margin-top: 66.66667px;
+}
+
+.container-row-10 .row-offset-5 {
+    margin-top: 83.33333px;
+}
+
+.container-row-10 .row-offset-6 {
+    margin-top: 100px;
+}
+
+.container-row-10 .row-offset-7 {
+    margin-top: 116.66667px;
+}
+
+.container-row-10 .row-offset-8 {
+    margin-top: 133.33333px;
+}
+
+.container-row-10 .row-offset-9 {
+    margin-top: 150px;
+}
+
+.container-row-10 .row-offset-10 {
+    margin-top: 166.66667px;
+}
+
+.container-row-10 .row-offset-11 {
+    margin-top: 183.33333px;
+}
+
+.row-10 {
+    height: 83.33333%;
+}
+
+.container-row-11 {
+    height: 220px;
+}
+
+.container-row-11 .row-offset-1 {
+    margin-top: 18.33333px;
+}
+
+.container-row-11 .row-offset-2 {
+    margin-top: 36.66667px;
+}
+
+.container-row-11 .row-offset-3 {
+    margin-top: 55px;
+}
+
+.container-row-11 .row-offset-4 {
+    margin-top: 73.33333px;
+}
+
+.container-row-11 .row-offset-5 {
+    margin-top: 91.66667px;
+}
+
+.container-row-11 .row-offset-6 {
+    margin-top: 110px;
+}
+
+.container-row-11 .row-offset-7 {
+    margin-top: 128.33333px;
+}
+
+.container-row-11 .row-offset-8 {
+    margin-top: 146.66667px;
+}
+
+.container-row-11 .row-offset-9 {
+    margin-top: 165px;
+}
+
+.container-row-11 .row-offset-10 {
+    margin-top: 183.33333px;
+}
+
+.container-row-11 .row-offset-11 {
+    margin-top: 201.66667px;
+}
+
+.row-11 {
+    height: 91.66667%;
+}
+
+.container-row-12 {
+    height: 240px;
+}
+
+.container-row-12 .row-offset-1 {
+    margin-top: 20px;
+}
+
+.container-row-12 .row-offset-2 {
+    margin-top: 40px;
+}
+
+.container-row-12 .row-offset-3 {
+    margin-top: 60px;
+}
+
+.container-row-12 .row-offset-4 {
+    margin-top: 80px;
+}
+
+.container-row-12 .row-offset-5 {
+    margin-top: 100px;
+}
+
+.container-row-12 .row-offset-6 {
+    margin-top: 120px;
+}
+
+.container-row-12 .row-offset-7 {
+    margin-top: 140px;
+}
+
+.container-row-12 .row-offset-8 {
+    margin-top: 160px;
+}
+
+.container-row-12 .row-offset-9 {
+    margin-top: 180px;
+}
+
+.container-row-12 .row-offset-10 {
+    margin-top: 200px;
+}
+
+.container-row-12 .row-offset-11 {
+    margin-top: 220px;
+}
+
+.row-12 {
+    height: 100%;
+}
+
+.col-offset-1 {
+    margin-left: 8.33333%;
+}
+
+.col-1 {
+    width: 8.33333%;
+}
+
+.col-offset-2 {
+    margin-left: 16.66667%;
+}
+
+.col-2 {
+    width: 16.66667%;
+}
+
+.col-offset-3 {
+    margin-left: 25%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-offset-4 {
+    margin-left: 33.33333%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-offset-5 {
+    margin-left: 41.66667%;
+}
+
+.col-5 {
+    width: 41.66667%;
+}
+
+.col-offset-6 {
+    margin-left: 50%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-offset-7 {
+    margin-left: 58.33333%;
+}
+
+.col-7 {
+    width: 58.33333%;
+}
+
+.col-offset-8 {
+    margin-left: 66.66667%;
+}
+
+.col-8 {
+    width: 66.66667%;
+}
+
+.col-offset-9 {
+    margin-left: 75%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-offset-10 {
+    margin-left: 83.33333%;
+}
+
+.col-10 {
+    width: 83.33333%;
+}
+
+.col-offset-11 {
+    margin-left: 91.66667%;
+}
+
+.col-11 {
+    width: 91.66667%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* components */
+
+.btn {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover, .btn:focus {
+    outline: 0;
+}

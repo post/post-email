@@ -1,0 +1,18 @@
+{
+  "use": [
+    "postcss-devtools",
+    "postcss-easy-import",
+    "postcss-each",
+    "postcss-at-rules-variables",
+    "postcss-custom-properties",
+    "postcss-for",
+    "postcss-conditionals",
+    "postcss-nested",
+    "postcss-calc",
+    "perfectionist"
+  ],
+  "postcss-easy-import": {
+    "prefix": "_",
+    "extensions": ".css"
+  }
+}

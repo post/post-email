@@ -1,0 +1,46 @@
+:root {
+  --muted: #777777;
+  --divider: #a5a5a5;
+  --divider-inside: #d4d4d4;
+  --divider-btn: #e5cf00;
+  --background: #f7f7f7;
+  --blue: #537ecd;
+  --green: #7fa93a;
+  --red: #b43c17;
+  --yellow: #fff200;
+  --dark: #2b2b2b;
+}
+
+
+:root {
+  --container: 640;
+  --container-ext: px;
+
+  --grid-gutter: 20;
+  --grid-gutter-ext: px;
+  --grid-col-count: 12;
+
+  --grid-row-count: 12;
+  --grid-row-height: 20;
+
+  --offset-to: 40;
+  --offset-from: 5;
+  --offset-step: 5;
+  --offset-ext: px;
+
+  --ratio: 1.2;
+  --base: 1;
+  --base-em: calc(var(--base) * 1em);
+  --base-rem: calc(var(--base) * 1rem);
+  --base-px: calc(var(--base) * 13px);
+
+  --ms-small: 0.85;
+  --ms0: 1;
+  --ms1: var(--ratio);                    /* 1.2   */
+  --ms2: calc(var(--ratio) * var(--ms1)); /* 1.44  */
+  --ms3: calc(var(--ratio) * var(--ms2)); /* 1.728 */
+  --ms4: calc(var(--ratio) * var(--ms3)); /* 2.074 */
+  --ms5: calc(var(--ratio) * var(--ms4)); /* 2.488 */
+  --ms6: calc(var(--ratio) * var(--ms5)); /* 2.986 */
+  --ms7: calc(var(--ratio) * var(--ms6)); /* 3.583 */
+}

@@ -1,0 +1,54 @@
+{
+  "name": "post-email",
+  "scripts": {
+    "html": "posthtml -o dev/ -i src/*.html",
+    "css": "postcss -o dev/css/main.css src/css/main.css -c postcss.json && npm run cssmin",
+    "cssmin": "postcss -o dev/css/main.min.css dev/css/main.css -u postcss-devtools -u postcss-csso -u postcss-discard-comments --postcss-discard-comments.removeAll true",
+    "build": "npm run css && npm run html",
+    "watch": "chokidar src/**/* -c \"npm run build\"",
+    "server": "browser-sync start --server dev --files dev",
+    "dev": " npm run server | npm run watch",
+    "update": "updtr"
+  },
+  "posthtml": {
+    "modules": {
+      "root": "./src/"
+    },
+    "inlineAssets": {
+      "from": "dev/index.html"
+    },
+    "removeTags": {
+      "tags": "style"
+    },
+    "removeAttributes": "class"
+  },
+  "dependencies": {
+    "normalize.css": "^4.2.0",
+    "perfectionist": "^2.1.3",
+    "postcss-at-rules-variables": "0.0.25",
+    "postcss-calc": "^5.2.1",
+    "postcss-cli": "^2.5.2",
+    "postcss-conditionals": "^2.0.2",
+    "postcss-csso": "^1.1.2",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-devtools": "^1.1.0",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-each": "^0.9.3",
+    "postcss-easy-import": "^1.0.1",
+    "postcss-for": "^2.1.1",
+    "postcss-nested": "^1.0.0",
+    "posthtml-beautify": "0.0.5",
+    "posthtml-cli": "^0.2.4",
+    "posthtml-inline-assets": "^1.0.2",
+    "posthtml-inline-css": "^1.2.2",
+    "posthtml-modules": "^0.4.0",
+    "posthtml-remove-attributes": "^1.0.0",
+    "posthtml-remove-tags": "0.0.1",
+    "reset.css": "^2.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "chokidar-cli": "^1.2.0",
+    "updtr": "^0.2.1"
+  }
+}

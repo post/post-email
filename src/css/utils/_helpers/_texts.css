@@ -1,0 +1,53 @@
+.text-muted {
+  color: var(--muted);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-strong {
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-nobreak {
+  white-space: nowrap;
+}
+
+.text-sm {
+  font-size: calc(var(--base-px) * var(--ms-small));
+  line-height: calc(var(--base) * var(--ms2));
+}
+
+
+.text-decoration-reset {
+  text-decoration: none;
+}

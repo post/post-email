@@ -1,0 +1,15 @@
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-divider-inside {
+  background-color: var(--divider-inside);
+}
+
+.bg-white {
+  background-color: #fff;
+}

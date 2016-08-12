@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+  background-color: var(--background);
+}
+
+table {
+  table-layout: fixed;
+}
+
+a {
+  color: #000;
+}

@@ -1,0 +1,63 @@
+.divider {
+  border: 1px solid var(--divider);
+}
+.divider-top {
+  border-top: 1px solid var(--divider);
+}
+.divider-bottom {
+  border-bottom: 1px solid var(--divider);
+}
+.divider-right {
+  border-right: 1px solid var(--divider);
+}
+.divider-left {
+  border-left: 1px solid var(--divider);
+}
+
+.divider-inside {
+  border: 0.7px solid var(--divider-inside);
+}
+.divider-inside-top {
+  border-top: 1px solid var(--divider-inside);
+}
+.divider-inside-bottom {
+  border-bottom: 0.7px solid var(--divider-inside);
+}
+.divider-inside-right {
+  border-right: 1px solid var(--divider-inside);
+}
+.divider-inside-left {
+  border-left: 1px solid var(--divider-inside);
+}
+
+.divider-btn {
+  border: 1px solid var(--divider-btn);
+}
+.divider-btn-top {
+  border-top: 1px solid var(--divider-btn);
+}
+.divider-btn-bottom {
+  border-bottom: 1px solid var(--divider-btn);
+}
+.divider-btn-right {
+  border-right: 1px solid var(--divider-btn);
+}
+.divider-btn-left {
+  border-left: 1px solid var(--divider-btn);
+}
+
+.divider-dotted {
+  border: 1px dotted var(--divider);
+}
+.divider-dotted-top {
+  border-top: 1px dotted var(--divider);
+}
+.divider-dotted-bottom {
+  border-bottom: 1px dotted var(--divider);
+}
+.divider-dotted-right {
+  border-right: 1px dotted var(--divider);
+}
+.divider-dotted-left {
+  border-left: 1px dotted var(--divider);
+}

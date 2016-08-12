@@ -1,0 +1,19 @@
+.box-inline {
+  display: inline-block;
+}
+
+.box-block {
+  display: block;
+}
+
+.v-top {
+  vertical-align: top;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+.v-text-top {
+  vertical-align: text-top;
+}
