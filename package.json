@@ -49,6 +49,6 @@
   "devDependencies": {
     "browser-sync": "^2.17.5",
     "chokidar-cli": "^1.2.0",
-    "updtr": "^0.2.2"
+    "updtr": "^0.2.3"
   }
 }
