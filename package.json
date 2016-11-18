@@ -28,7 +28,7 @@
     "postcss-at-rules-variables": "0.0.25",
     "postcss-calc": "^5.2.1",
     "postcss-cli": "^2.5.2",
-    "postcss-conditionals": "^2.0.2",
+    "postcss-conditionals": "^2.0.3",
     "postcss-csso": "^1.1.2",
     "postcss-custom-properties": "^5.0.1",
     "postcss-devtools": "^1.1.1",
