@@ -38,7 +38,7 @@
     "postcss-for": "^2.1.1",
     "postcss-nested": "^1.0.0",
     "posthtml-beautify": "0.1.0",
-    "posthtml-cli": "^0.2.9",
+    "posthtml-cli": "^0.2.10",
     "posthtml-inline-assets": "^2.0.0",
     "posthtml-inline-css": "^1.2.2",
     "posthtml-modules": "^0.4.0",
