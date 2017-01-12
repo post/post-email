@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "normalize.css": "^5.0.0",
-    "perfectionist": "^2.3.1",
+    "perfectionist": "^2.4.0",
     "postcss-at-rules-variables": "0.0.26",
     "postcss-calc": "^5.2.1",
     "postcss-cli": "^2.5.2",
