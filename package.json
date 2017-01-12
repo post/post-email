@@ -34,7 +34,7 @@
     "postcss-devtools": "^1.1.1",
     "postcss-discard-comments": "^2.0.4",
     "postcss-each": "^0.9.3",
-    "postcss-easy-import": "^1.0.1",
+    "postcss-easy-import": "^2.0.0",
     "postcss-for": "^2.1.1",
     "postcss-nested": "^1.0.0",
     "posthtml-beautify": "0.1.2",
