@@ -36,7 +36,7 @@
     "postcss-each": "^0.9.3",
     "postcss-easy-import": "^2.0.0",
     "postcss-for": "^2.1.1",
-    "postcss-nested": "^1.0.0",
+    "postcss-nested": "^1.0.1",
     "posthtml-beautify": "0.1.5",
     "posthtml-cli": "^0.2.16",
     "posthtml-inline-assets": "^2.0.0",
