@@ -43,7 +43,7 @@
     "posthtml-inline-css": "^1.2.2",
     "posthtml-modules": "^0.4.0",
     "posthtml-remove-attributes": "^1.0.0",
-    "posthtml-remove-tags": "0.0.1",
+    "posthtml-remove-tags": "0.1.0",
     "reset.css": "^2.0.2"
   },
   "devDependencies": {
