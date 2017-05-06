@@ -27,7 +27,7 @@
     "perfectionist": "^2.4.0",
     "postcss-at-rules-variables": "0.1.0",
     "postcss-calc": "^5.2.1",
-    "postcss-cli": "^3.0.0",
+    "postcss-cli": "^3.1.1",
     "postcss-conditionals": "^2.1.0",
     "postcss-csso": "^2.0.0",
     "postcss-custom-properties": "^5.0.1",
