@@ -47,7 +47,7 @@
     "reset.css": "^2.0.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.6",
+    "browser-sync": "^2.18.11",
     "chokidar-cli": "^1.2.0",
     "updtr": "^1.0.0"
   }
