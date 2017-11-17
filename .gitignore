@@ -3,5 +3,4 @@ node_modules
 npm-debug.log
 lib
 .publish
-*.sublime*
 coverage
