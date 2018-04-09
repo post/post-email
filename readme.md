@@ -1,3 +1,3 @@
 # post-email
 
-Builder email using poshtml &amp; postcss
+Builder email using poshtml &amp; postcss.
