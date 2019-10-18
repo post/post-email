@@ -1,5 +1,19 @@
 {
   "name": "post-email",
+  "version": "0.0.0",
+  "description": "Builder email using poshtml & postcss",
+  "license": "MIT",
+  "repository": "post/post-email",
+  "homepage": "https://github.com/post/post-email#readme",
+  "bugs": "post/post-email/issues",
+  "author": {
+    "name": "Ivan Demidov",
+    "email": "Scrum@list.ru",
+    "url": "https://twitter.com/Scrum_"
+  },
+  "engines": {
+    "node": ">=8"
+  },
   "scripts": {
     "html": "posthtml -o dev/ -i src/*.html",
     "css": "postcss -o dev/css/main.css src/css/main.css -c postcss.json && npm run cssmin",
@@ -10,6 +24,14 @@
     "dev": " npm run server | npm run watch",
     "update": "updtr"
   },
+  "keywords": [
+    "posthtml",
+    "postcss",
+    "css",
+    "html",
+    "email",
+    "builder"
+  ],
   "posthtml": {
     "modules": {
       "root": "./src/"
