@@ -45,23 +45,23 @@
     "removeAttributes": "class"
   },
   "dependencies": {
-    "normalize.css": "^7.0.0",
+    "normalize.css": "^8.0.1",
     "perfectionist": "^2.4.0",
-    "postcss-at-rules-variables": "0.1.1",
+    "postcss-at-rules-variables": "^0.1.8",
+    "postcss-calc": "^7.0.1",
     "postcss-cli": "^6.0.0",
-    "postcss-calc": "^6.0.0",
     "postcss-conditionals": "^2.1.0",
-    "postcss-csso": "^2.0.0",
-    "postcss-custom-properties": "^6.0.0",
+    "postcss-csso": "^3.0.0",
+    "postcss-custom-properties": "^9.0.2",
     "postcss-devtools": "^1.1.1",
-    "postcss-discard-comments": "^2.0.4",
+    "postcss-discard-comments": "^4.0.2",
     "postcss-each": "^0.10.0",
-    "postcss-easy-import": "^2.0.0",
+    "postcss-easy-import": "^3.0.0",
     "postcss-for": "^2.1.1",
-    "postcss-nested": "^2.0.2",
-    "posthtml-beautify": "0.1.6",
-    "posthtml-cli": "^0.4.0",
-    "posthtml-inline-assets": "^2.0.0",
+    "postcss-nested": "^4.1.2",
+    "posthtml-beautify": "^0.3.1",
+    "posthtml-cli": "^0.5.1",
+    "posthtml-inline-assets": "^3.0.0",
     "posthtml-inline-css": "^1.2.2",
     "posthtml-modules": "^0.4.0",
     "posthtml-remove-attributes": "^1.0.0",
@@ -70,7 +70,6 @@
   },
   "devDependencies": {
     "browser-sync": "^2.18.11",
-    "chokidar-cli": "^1.2.0",
-    "updtr": "^1.0.0"
+    "chokidar-cli": "^2.0.0"
   }
 }
