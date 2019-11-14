@@ -3,7 +3,7 @@ module.exports = {
     from: undefined
   },
   plugins: [
-    // require('postcss-devtools')(),
+    require('postcss-devtools')(),
     require('postcss-easy-import')({
       root: 'src/assets/styles',
       prefix: '_',
