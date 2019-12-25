@@ -39,7 +39,7 @@ src
 └── templates
     ├── base
     │   └── base.html
-    ├── coponents
+    ├── components
     │   └── button.html
     ├── layout
     └── pages
